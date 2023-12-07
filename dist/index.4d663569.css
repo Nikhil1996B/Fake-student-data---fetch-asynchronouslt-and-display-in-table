@@ -2,4 +2,34 @@ body {
   font-family: sans-serif;
 }
 
+pre {
+  color: #fff;
+  background-color: #1d1d1d;
+  padding: 8px;
+}
+
+section {
+  background-color: #1d1d1d;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
+  border: 1px solid #fff;
+  padding: 2px;
+}
+
+tr:nth-child(2n) {
+  color: #fff;
+  background-color: #1d1d1d;
+}
+
+tr:nth-child(odd) {
+  color: #c2f84b;
+}
+
 /*# sourceMappingURL=index.4d663569.css.map */

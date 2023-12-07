@@ -4,6 +4,7 @@
   "description": "The JavaScript template",
   "scripts": {
     "start": "parcel ./src/index.html",
+    "server": "json-server --watch db.json --port 3001",
     "build": "parcel build ./src/index.html"
   },
   "devDependencies": {
@@ -11,5 +12,8 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^7.2.0"
   },
-  "keywords": ["css", "javascript"]
+  "keywords": [
+    "css",
+    "javascript"
+  ]
 }
